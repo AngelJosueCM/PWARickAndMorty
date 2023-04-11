@@ -7,6 +7,4 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 import './registerServiceWorker'
 
-
-
 createApp(App).use(store).use(router).mount('#app')
