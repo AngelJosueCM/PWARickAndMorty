@@ -5,10 +5,24 @@
     <div class="container" >
       <div v-for="(character, index) in characters" :key="index">
     <mat-card class="card" style="width: 18rem;">
-            <h3>{{ character.name }}</h3>
-          <div>{{ character.gender }}</div>
-        <div>{{ character.status }}</div>
+            <h3>Nombre: {{ character.name }}</h3>
+          <div>Genero: {{ character.gender }}</div>
+        <div>Estatus: {{ character.status }}</div>
             <img :src="character.image" alt="">  
+          </mat-card>
+        </div>
+        </div>
+      </div>
+      <div v-else="offline()"> 
+        <div><h1 style="color: red; text-align: center;">Estás Offline</h1></div>
+        <h1 style="color: white;">Rick and Morty</h1>
+    <div class="container" >
+      <div v-for="(index) in characters" :key="index">
+    <mat-card class="card" style="width: 18rem;">
+            <h3>Nombre: </h3>
+          <div>Genero: </div>
+        <div>Estatus: </div>
+            <img src="../assets/error.png" alt="">  
           </mat-card>
         </div>
         </div>

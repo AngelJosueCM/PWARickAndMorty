@@ -1,0 +1,44 @@
+[debug] [2023-04-11T23:14:57.574Z] ----------------------------------------------------------------------
+[debug] [2023-04-11T23:14:57.576Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\angel.cerna\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-11T23:14:57.576Z] CLI Version:   11.26.0
+[debug] [2023-04-11T23:14:57.577Z] Platform:      win32
+[debug] [2023-04-11T23:14:57.577Z] Node Version:  v18.15.0
+[debug] [2023-04-11T23:14:57.578Z] Time:          Tue Apr 11 2023 17:14:57 GMT-0600 (hora estándar central)
+[debug] [2023-04-11T23:14:57.578Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-11T23:14:57.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-11T23:14:57.652Z] > authorizing via signed-in user (agelooxgamer@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\angel.cerna\OneDrive - SCIO CONSULTING INTERNATIONAL, LLC\Desktop\api-rickandmorty
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-11T23:15:03.357Z] Using project from CLI flag: pwavue-a043f
+[debug] [2023-04-11T23:15:03.360Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pwavue-a043f [none]
+[debug] [2023-04-11T23:15:03.793Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pwavue-a043f 200
+[debug] [2023-04-11T23:15:03.794Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pwavue-a043f {"projectId":"pwavue-a043f","projectNumber":"31396341611","displayName":"PWAVue","name":"projects/pwavue-a043f","resources":{"hostingSite":"pwavue-a043f"},"state":"ACTIVE","etag":"1_e91f07b5-b8ed-4177-89cd-9f886d8e6f04"}
+[info] i  Using project pwavue-a043f (PWAVue) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
